@@ -1,6 +1,6 @@
 import { useState,useEffect } from "react";
 import { Box,Text,Flex } from "@chakra-ui/react";
-import ColorModeSwitcher from "./colorModeSwitcher";
+import ColorModeSwitcher from "./ColorModeSwitcher";
 
 const CurrentDate = () => {
     const [currentDate,setCurrentDate] = useState('');
