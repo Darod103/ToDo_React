@@ -54,9 +54,10 @@ function App() {
             placeholder="New task"
             value={newTask}
             onChange={(e) => setNewTask(e.target.value)}
+            
             mr={{ base: 0, md: 2 }}
             mb={{ base: 2, md: 0 }}
-            flex="1"
+            // flex="1"
           />
           <Button onClick={addTask}>Add Task</Button>
         </Flex>
